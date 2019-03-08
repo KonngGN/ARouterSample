@@ -9,9 +9,9 @@ import com.alibaba.android.arouter.facade.template.IProvider;
 /**
  * @author : jiangnankong
  * @date : 3/8/19 11:43 AM
- * Description :
+ * Description : 可以被其他模块实例化调用
  */
-@Route(path = "/test/numservice")
+@Route(path = "/test/service")
 public class TestService implements IProvider {
 
 

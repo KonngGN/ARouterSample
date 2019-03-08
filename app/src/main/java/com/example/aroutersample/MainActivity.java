@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mTextView = findViewById(R.id.text_1);
-        mNavigation = (TestService) ARouter.getInstance().build("/test/numservice").navigation();
+        mNavigation = (TestService) ARouter.getInstance().build("/test/service").navigation();
     }
 
     public void click1(View view) {
